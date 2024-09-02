@@ -1,5 +1,5 @@
 from Khushi import my_name
-from buijs import write_name
+from buijs import write_name(Buijs)
 from leo import myname_leo
 from shriya import my_name2
 
