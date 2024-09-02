@@ -1,4 +1,4 @@
-from Khushi import my_name
+from khushi import my_name
 from buijs import write_name
 from leo import myname_leo
 from shriya import my_name2
