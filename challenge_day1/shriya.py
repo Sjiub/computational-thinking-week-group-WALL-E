@@ -1,2 +1,2 @@
-def my_name3():
+def my_name2():
     return "Shriya"
