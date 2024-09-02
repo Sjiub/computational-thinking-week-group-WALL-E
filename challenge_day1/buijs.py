@@ -1,2 +1,3 @@
-def write_name (Buijs):
+def write_name():
     print(Buijs)
+write_name()
