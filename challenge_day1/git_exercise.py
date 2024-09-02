@@ -3,7 +3,7 @@ from buijs import write_name
 from leo import myname_leo
 from shriya import my_name2
 
-def team_names:
+def team_names():
   print("This is Team WALL-E, we are:")
   my_name()
   write_name()
