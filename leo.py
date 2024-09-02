@@ -1,3 +1,3 @@
-def myname():
+def myname_leo():
     print("Leo Yu")
 myname()
