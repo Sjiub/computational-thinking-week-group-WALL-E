@@ -10,10 +10,11 @@ def solution_station_5(first_name, csv_file_path='names.csv'):
                 if row['First Name'] == first_name:
                     return row['Learning Team']
         
-        return "Student not found"
+                else:
+                        return "Student not found"
     
-    except FileNotFoundError:
-        return "CSV file not found"
+        except FileNotFoundError:
+                return "CSV file not found"
 
 # Example usage
 print(solution_station_5('Shuting'))
