@@ -31,4 +31,4 @@ def solution_station_2(date_str):
 
     return japanese_weekdays[weekday_number]
 
-solution_station_2("2023-01-10")
+print(solution_station_2("2023-01-10"))
