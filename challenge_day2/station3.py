@@ -8,3 +8,10 @@ sample input          input           sample output              output
 81                    94030           T                          ?
 46                    48262           F                          ?
 30                    59010           T                          ?
+
+def solution_station_3(input_number: int) -> bool:
+  if input_number % 2 != 0:
+    return True
+  else:
+    return false
+  
