@@ -1,20 +1,23 @@
-def solution_station_7():
-    # define the variable values
+# figure out variable value and calculate output from results
+def solution_station_7(equations: list[str]) -> list[float]:
     a = 3
     b = -1
     c = 4
     d = 7
     e = 0.5
     
-    # ask the user for three equations
-    for i in range(1, 4):
-        equation = input(f"Enter equation {i}: ")
+    results = []
+    
+    # Loop through each provided equation
+    for i, equation in enumerate(equations, start=1):
         try:
-            # evaluate the equation with the given variables
+            # Evaluate the equation with the given variables
             result = eval(equation)
-            print(f"Result of equation {i}: {result}")
+            results.append(result)
         except Exception as ex:
             print(f"Error evaluating equation {i}: {ex}")
-
+            results.append(None)  # Append None in case of an error
+    
+    return results
 
 
