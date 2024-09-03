@@ -1,4 +1,4 @@
-    # challenge japanese weekdays 
+### challenge japanese weekdays 
 # determine the weekday with the provided date format yyyy-mm-dd and translate to japanese
 # example data 
 # input 2023-01-10 output 火曜日 (Friday)
@@ -11,6 +11,10 @@
     Thursday＝木曜日（もくようび、mokuyoubi）
     Friday＝金曜日（きんようび、kinyoubi）
     Saturday＝土曜日（どようび、doyoubi）
+
+    0 represents Saturday because in Zeller's time and older calenders, Saturday is considered the end of the week 
+    e.g. jewish calender where Saturday is the Sabbath, a day of rest and worship
+
 """
 def solution_station_2(date_str):
     # gotta slice the date stringgg
@@ -27,6 +31,5 @@ def solution_station_2(date_str):
     j = year // 100
     weekday_number = (day + (13 * (month + 1)) // 5 + k + (k // 4) + (j // 4) + 5 * j) % 7
 
-    japanese_weekdays = ["土曜日", "日曜日", "月曜日", "火曜日", "水曜日", "木曜日", "金曜日"]
-
+    japanese_weekdays = ["土曜日", "日曜日", "月曜日", "火曜日", "水曜日", "木曜日", "金曜日"] 
     return japanese_weekdays[weekday_number]
