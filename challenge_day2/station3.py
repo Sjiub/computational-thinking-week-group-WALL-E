@@ -1,4 +1,4 @@
-# number and boolean
+# number and boolean problem for numbers divisible by 3
 """
 sample input          input           sample output              output
 10                    93151           F                          ?
