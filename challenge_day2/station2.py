@@ -1,4 +1,4 @@
-# challenge japanese weekdays 
+    # challenge japanese weekdays 
 # determine the weekday with the provided date format yyyy-mm-dd and translate to japanese
 # example data 
 # input 2023-01-10 output 火曜日 (Friday)
@@ -29,6 +29,6 @@ def solution_station_2(date_str):
 
     japanese_weekdays = ["土曜日", "日曜日", "月曜日", "火曜日", "水曜日", "木曜日", "金曜日"]
 
-return japanese_weekdays[weekday_number]
+    return japanese_weekdays[weekday_number]
 
 solution_station_2("2023-01-10")
