@@ -16,8 +16,7 @@ def solution_station_1():
         return
 
     # determine the first two numbers
-    a = 0
-    b = 1
+    a, b = 0, 1
 
     # calculate the Fibonacci number for position n
     for _ in range(2, n + 1):
