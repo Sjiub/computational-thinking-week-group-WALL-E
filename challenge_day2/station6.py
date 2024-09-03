@@ -2,7 +2,7 @@
 
 import math
 
-def solution_station_6(input_list):
-    output_values = [round(math.sin(x), 4) for x in input_list]
-    return output_values
+def solution_station_6(x):
+    output = round(math.sin(x), 4)
+    return output
 
