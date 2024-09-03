@@ -4,18 +4,20 @@ import csv
 
 def solution_station_5(first_name, csv_file_path='names.csv'):
     try:
-        with open(csv_file_path, mode='r') as file:
+        with open(csv_file_path, mode='r', encoding='utf-8') as file:
             csv_reader = csv.DictReader(file)
             
             for row in csv_reader:
                 if row['First Name'] == first_name:
                     return row['Learning Team']
             
-            # Moved "Student not found" outside the loop
             return "Student not found"
     
     except FileNotFoundError:
         return "CSV file not found"
+    except UnicodeDecodeError:
+        return "Error decoding the CSV file"
 
 # Example usage
 print(solution_station_5('Shuting'))
+
