@@ -16,6 +16,5 @@ def solution_station_7():
         except Exception as ex:
             print(f"Error evaluating equation {i}: {ex}")
 
-# call the function to solve the equation
-solution_station_7()
+
 
