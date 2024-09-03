@@ -2,6 +2,7 @@
 # determine the weekday with the provided date format yyyy-mm-dd and translate to japanese
 # example data 
 # input 2023-01-10 output 火曜日 (Friday)
+# Zeller's Congruence baby
 """ 
     Sunday＝日曜日（にちようび、nichiyoubi）
     Monday＝月曜日（げつようび、getsuyoubi）
