@@ -10,9 +10,9 @@ from station7 import solution_station_7
 # List three observations of all inputs (not sample inputs) observed at the same time
 # Format: (time: str, station1_input: int, station2_input: str, station3_input: int, station4_input: int, station5_input: str, station6_input: int, station7_input: str)
 # Example: ('12:30:00', 1, '1990-01-01', 2, 3, "John", 4, "e=mc^2")
-observation1 = ...
-observation2 = ...
-observation3 = ...
+observation1 = ('10:45:00', 89, '2024-01-15', 97894, 9789, 'Shuting', 97, 'b*a*e+c')
+observation2 = ('10:45:10', 15, '2024-06-18', 57217, 5721, 'Noel', 57, 'a+c*d+b')
+observation3 = ('10:45:20', 9, '2024-11-19', 35469, 3546, 'Micay', 35, 'e*b+a')
 
 def combined_algorithm(observations: tuple) -> int:
     output1 = solution_station_1(observations[1])
