@@ -11,7 +11,6 @@ def solution_station_5(first_name, csv_file_path='names.csv'):
             csv_reader = csv.DictReader(file)
             
             for row in csv_reader:
-                # Convert the CSV field to lowercase for case-insensitive comparison
                 csv_first_name = row['First Name'].strip().lower()
                 
                 if csv_first_name == first_name_lower:
@@ -23,8 +22,3 @@ def solution_station_5(first_name, csv_file_path='names.csv'):
         return "CSV file not found"
     except UnicodeDecodeError:
         return "Error decoding the CSV file"
-
-# Example usage
-print(solution_station_5('shuting'))  # Should work regardless of capitalization
-print(solution_station_5('Shuting'))
-print(solution_station_5('SHUTING'))
