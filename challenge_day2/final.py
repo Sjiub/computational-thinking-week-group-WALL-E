@@ -31,7 +31,7 @@ def combined_algorithm(observations: tuple) -> int:
     assert isinstance(output7, float)
     return output1 * int.from_bytes(output2[0].encode("unicode_escape"), byteorder='big') * (3 if output3 else 2) * (5 if output4 else 4) * output5 * output6 * output7
 
-FINAL_OUTPUT1 = combined_algorithm(observation1)
-FINAL_OUTPUT2 = combined_algorithm(observation2)
-FINAL_OUTPUT3 = combined_algorithm(observation3)
+print(combined_algorithm(observation1))
+print(combined_algorithm(observation2))
+print(combined_algorithm(observation3))
 tests.Test_Exercise(combined_algorithm);
