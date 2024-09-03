@@ -18,6 +18,3 @@ def solution_station_5(first_name, csv_file_path='names.csv'):
     except UnicodeDecodeError:
         return "Error decoding the CSV file"
 
-# Example usage
-print(solution_station_5('Shuting'))
-
