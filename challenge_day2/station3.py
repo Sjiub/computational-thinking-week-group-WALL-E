@@ -10,7 +10,7 @@ sample input          input           sample output              output
 30                    59010           T                          ?
 
 def solution_station_3(input_number: int) -> bool:
-  if input_number % 2 != 0:
+  if input_number % 3 == 0:
     return True
   else:
     return False
