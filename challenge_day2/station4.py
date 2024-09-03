@@ -10,7 +10,6 @@ input          output
 7              T
 """
 
-"""
 def solution_station_4(number):
     if number <= 1:
         print('F')
