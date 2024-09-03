@@ -14,7 +14,7 @@
 """
 def solution_station_2(date_str):
     # gotta slice the date stringgg
-    year = int(date_string[0:4])
+    year = int(date_str[0:4])
     month = int(date_str[5:7])
     day = int(date_str[8:10])
 
