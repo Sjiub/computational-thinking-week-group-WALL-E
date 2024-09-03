@@ -1,5 +1,5 @@
+# Fibonacci sequence
 def solution_station_1(n: int) -> int:
-    # Ensure the input is a positive integer
     if n < 0:
         raise ValueError("Please enter a positive integer.")
 
