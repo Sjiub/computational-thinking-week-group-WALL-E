@@ -13,5 +13,5 @@ def solution_station_3(input_number: int) -> bool:
   if input_number % 2 != 0:
     return True
   else:
-    return false
+    return False
   
