@@ -26,5 +26,3 @@ def solution_station_1():
     # output the result
     print(f"The Fibonacci number at position {n} is: {b}")
 
-# Call the function
-solution_station_1()
